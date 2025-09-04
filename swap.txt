@@ -1,0 +1,46 @@
+.header{
+
+}
+
+.header-logo img{
+    display: flex-start;
+    height: 70px;
+    margin: 15px;
+
+
+
+}
+
+.header-menu ul{
+    flex-direction: row;
+    height: 30px;
+
+
+}
+
+.header-menu li{
+    flex-direction: row;
+    height: 30px;
+
+    
+}
+
+.header-login{
+    height: 30px;
+
+}
+
+.header-icon{
+    justify-content: flex-end;
+    height: 30px;
+
+}
+
+.header-search{
+    height: 30px;
+
+}
+
+.main-content{
+
+}
