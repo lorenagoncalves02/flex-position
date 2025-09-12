@@ -8,25 +8,39 @@
 
 .speaker-card{
     border: 2px solid black;
-    justify-content: center;
-
-
-
-
+    display: flex;
+    flex-direction: column;
 
 
 }
 
 .speaker-card img{
     border: 2px solid blueviolet;
+    border-radius: 40px;
 
 
 }
 
 
 .speaker-card figcaption{
+    background: #ffffff;
     border: 2px solid palevioletred;
+    height: 100px;
+    width: 250px;
 
+}
+
+.speaker-card h3{
+    padding: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.speaker-card p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
 }
 
 
