@@ -1,89 +1,3 @@
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-
-    height: 8vh;
-    background-color: rgb(248, 251, 251);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1001);
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    /* o z é tipo uma terceira dimensao, é pra eu colocar ele na frente ou atras de outros objetos */
-    z-index: 1000;
-
-}
-
-.header-logo img{
-    height: 50px;
-
-
-
-
-}
-
-.header-menu ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-
-
-}
-
-.header-menu li{
-    padding: 8px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3 ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1001);
-    user-select: none;
-
-}
-
-.header-menu li:hover{
-    background-color: brown;
-    color: #fff;
-    box-shadow: 0 4px 8px rgba(0,123,255,0.4);
-
-}
-
-.header-login{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-}
-
-.header-icon figure{
-    margin: 0;
-    width: 40px;
-    height: 40px;
-
-}
-
-.header-icon img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 2px 5px rgba (0,0,0,0.15);
-}
-
-.header-search input{
-    padding: 7px 12px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    outline: none;
-    transition: border-color 0.3s ease;
-    width: 180px;
-    color: rgb(30, 30, 117);
-
-
-}
 
 .main-content{
     width: 100%;
@@ -91,11 +5,6 @@
     background-color: #d9d9d9;
   }
 
-.header-search input:focus{
-    border-color: coral;
-    box-shadow: (0,0,8px rgba(0,123,255,0.5));
-
-}
 
 
 .content-sec01{
