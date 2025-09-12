@@ -5,9 +5,36 @@
 /* p -> informação dentro do figure caption*/
 /* p -> informação dentro do figure caption*/
 
-figure{
+
+.speaker-card{
+    border: 2px solid black;
+    justify-content: center;
+
+
+
+
+
 
 }
+
+.speaker-card img{
+    border: 2px solid blueviolet;
+
+
+}
+
+
+.speaker-card figcaption{
+    border: 2px solid palevioletred;
+
+}
+
+
+
+
+
+
+
 
 
 
