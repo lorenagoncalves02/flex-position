@@ -68,7 +68,8 @@
 /* classe responsável por aplicar o efeito em todos os icones das redes sociais */
 .effect:hover{
     transform: scale(1.2);
-    filter: drop-shadow(0 0 3px rgb(8, 8, 108));
+    filter: drop-shadow(0 0 3px rgb(8, 8, 108)); 
     cursor: pointer;
+
 
 }
