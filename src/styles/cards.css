@@ -6,17 +6,31 @@
 /* p -> informação dentro do figure caption*/
 
 
+/* pseudoclasse que controla o efeito do mouse */
+/* não pode dar espaço no : */
 .speaker-card{
+    max-width: 250px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 40px;
+    overflow: hidden;
     display: flex;
+    text-align: center; 
     flex-direction: column;
     background: #ffffff;
-
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: ease-out 0.3s;
 
 }
 
+.speaker-card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
 .speaker-card img{
+    display: block;
+    width: 100%;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 40px 40px 0px 0px;
     background: #ffffff;
@@ -24,13 +38,11 @@
 
 }
 
-
 .speaker-card figcaption{
+    padding: 10px;
+
     background: #ffffff;
-    border: 5px solid palevioletred;
-    border-radius:0px 0px 40px 40px;
-    height: 100px;
-    width: 250px;
+
 
 }
 
@@ -43,9 +55,12 @@
 
 .speaker-card p{
     font-size: 20px;
+    margin: 3px 0;
     color: black;
-    text-align: center;
+
 }
+
+
 
 
 
